@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
+@ComponentScan(value = {"controller", "service"})
 public class Application {
 
     public static void main(String[] args){
