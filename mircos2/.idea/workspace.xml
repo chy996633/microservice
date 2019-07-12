@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb2f19a-09a4-458d-81ee-e0a48754c391" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../eruekaserver/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eruekaserver/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eruekaserver/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eruekaserver/eruekaserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eruekaserver/src/main/java/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eruekaserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mircos1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mircos1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eruekaserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eruekaserver/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../skywalkingtest" beforeDir="false" afterPath="$PROJECT_DIR$/../skywalkingtest" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +32,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -68,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -89,6 +79,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>@ComponentScan</find>
+      <find>eurake</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
@@ -235,10 +226,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,13 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -325,6 +309,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
