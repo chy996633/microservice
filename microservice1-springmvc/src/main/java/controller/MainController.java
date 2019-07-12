@@ -17,9 +17,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/s1")
 public class MainController {
 
-    @RequestMapping("/start")
+    @RequestMapping("/test1")
     public void start() {
         System.out.println("service1 start");
     }
+
+    @RequestMapping("/test2")
+    public String test2() {
+        if (true) {
+            throw new RuntimeException("a exception occured");
+        }
+        return "Hello World2";
+    }
+
+    @RequestMapping("test3")
+    public String test3() throws InterruptedException {
+        Thread.sleep(10000);
+        return "Hello World3";
+    }
+
 
 }
