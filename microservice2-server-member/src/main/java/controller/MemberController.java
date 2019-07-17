@@ -22,6 +22,6 @@ public class MemberController {
 
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        return "hello "+name+"，this is first messge";
+        return "hello "+name+"，this is first messge from " + Thread.currentThread().getName();
     }
 }
