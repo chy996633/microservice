@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  *      建立: 2019/7/12 陈海越
  *        </pre>
  */
-@FeignClient(name= "server-member")
+@FeignClient(name= "m2-member")
 public interface HelloRemote {
-    @RequestMapping(value = "/hello")
+    @RequestMapping(value = "m2-member/hello")
     public String hello(@RequestParam(value = "name") String name);
 }

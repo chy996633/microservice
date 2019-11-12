@@ -1,9 +1,17 @@
 server:
-    port: 9997
+  port: 9997
+  servlet:
+    context-path: /m3-order
 eureka:
+  instance:
+    hostname: localhost
+    instanceId: localhost:${server.port}
+    preferIpAddress: true
   client:
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8888/eureka/
 spring:
   application:
-    name: server-order
+    name: m3-order

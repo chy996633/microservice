@@ -16,6 +16,21 @@
         <relativePath/>
     </parent>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>${dependency.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <version>${dependency.version}</version>
+        </dependency>
+    </dependencies>
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -38,11 +53,14 @@
         <module>microservice1-springmvc</module>
         <module>microservice2-server-member</module>
         <module>microservice3-service-order</module>
+        <module>microservice-zuul</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+        <dependency.version>2.1.1.RELEASE</dependency.version>
     </properties>
 
 </project>

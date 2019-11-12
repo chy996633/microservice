@@ -1,3 +1,9 @@
 server:
-    port: 9999
+  port: 9999
+  servlet:
+    context-path: /m1-mvc
+spring:
+  application:
+    name: m1-mvc
+
 
