@@ -1,0 +1,39 @@
+eureka:
+  instance:
+    hostname: localhost
+    instanceId: localhost:${server.port}
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+server:
+  port: 9998
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+ribbon:
+  ReadTimeout: 5000
+
+zuul:
+  routes:
+    m2-member:
+      path: /member/**
+      serviceId: m2-member
+    m3-order:
+      path: /order/**
+      serviceId: m3-order
